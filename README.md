@@ -1,26 +1,55 @@
 # Hi, I'm Anıl 👋
 
-Mathematics graduate specializing in AI/ML engineering. I build production-ready deep learning systems with a focus on computer vision, NLP, and retrieval-augmented generation.
+AI/ML Engineer with strong mathematical foundations. I build production systems from scratch - from implementing transformer architecture in NumPy to fine-tuning 7B parameter model with LoRA.
 
-## Featured Projects
+## 🚀 Active Development
 
-**🤖 [GitHub RAG Chatbot](https://huggingface.co/spaces/knightscode139/github-portfolio-chatbot)**
-RAG system that answers questions about my GitHub repositories. Uses ChromaDB for vector storage, sentence-transformers for embeddings, and Claude Haiku for generation.
+**[Ubuntu System Repair Agent](https://github.com/knightscode139/ubuntu-system-repair-agent)** 🔧 *Work in Progress*  
+Multi-agent system for autonomous Ubuntu troubleshooting and repair. Built with LangGraph and MCP servers.
+- **Architecture:** 3 specialized agents (Detector → Fixer → Executor) with supervisor coordination
+- **Stack:** LangGraph • FastMCP • Ollama (local LLMs)
+- **Goal:** Genuine utility tool for Ubuntu users, not just a portfolio piece
+- Open to collaborators! See [Contributing Guide]
 
-**💬 [IMDB Sentiment Classifier](https://huggingface.co/spaces/knightscode139/imdb-sentiment-classifier)**
-Fine-tuned transformer model achieving 92.8% accuracy on sentiment classification.
+---
 
-**🩺 [COVID-19 X-Ray Classifier](https://huggingface.co/spaces/knightscode139/covid-xray-classifier)**
-Transfer learning model for detecting COVID-19 from chest X-rays with 92% accuracy. Built with PyTorch and deployed on HuggingFace Spaces.
+## 🚀 Featured Projects
 
-## Tech Stack
+**[Turkish Legal Q&A with LoRA Fine-tuning](https://github.com/knightscode139/turkish-legal-qa-lora)**  
+LoRA fine-tuning of Trendyol LLM 7B on Turkish legal Q&A dataset using QLoRA.
 
-**ML/DL:** PyTorch • HuggingFace Transformers  
-**RAG & NLP:** ChromaDB • sentence-transformers • Anthropic Claude API  
-**Deployment:** HuggingFace Spaces • Gradio
+**[Decoder Transformer from Scratch](https://github.com/knightscode139/decoder-transformer-from-scratch)**  
+Educational implementation of a decoder-only transformer using pure NumPy. Built to understand transformer architecture from the ground up before PyTorch.
 
-## About Me
+**[AI News Digest Agent](https://github.com/knightscode139/ai-news-digest-agent)**  
+AI news agent that searches, analyzes, and summarizes the top 5 AI stories daily using LangChain + Tavily. Automated via systemd timers with persistent execution.
 
-Strong mathematical foundations with hands-on experience building end-to-end ML projects from data preprocessing through deployment.
+## 🎯 Deployed Applications
 
-🔗 [Hugging Face Profile](https://huggingface.co/knightscode139)
+**[GitHub RAG Chatbot](https://github.com/knightscode139/github-chatbot)** • [Live Demo](https://huggingface.co/spaces/knightscode139/github-portfolio-chatbot)  
+AI chatbot for my GitHub portfolio. Ask questions about my code and projects using RAG.
+
+**[IMDB Sentiment Classifier](https://github.com/knightscode139/imdb-sentiment-classifier)** • [Live Demo](https://huggingface.co/spaces/knightscode139/imdb-sentiment-classifier) • 92.8% accuracy  
+BERT-based sentiment classifier for IMDB movie reviews. Deployed on HuggingFace Spaces.
+
+**[COVID-19 X-Ray Classifier](https://github.com/knightscode139/covid-xray-classifier)** • [Live Demo](https://huggingface.co/spaces/knightscode139/covid-xray-classifier) • 92% accuracy  
+Deep learning COVID-19 X-ray classifier with live demo.
+
+## 💻 Additional Projects
+
+**[PyTorch CIFAR-10](https://github.com/knightscode139/pytorch-cifar)**  
+CIFAR-10 classifier: 67% custom CNN, 80% transfer learning.
+
+**[PyTorch MNIST](https://github.com/knightscode139/pytorch-mnist)**  
+Fully connected neural network for MNIST digit classification with 97.79% accuracy.
+
+## 🛠️ Tech Stack
+
+**ML/DL:** PyTorch • HuggingFace Transformers • NumPy  
+**LLM Fine-tuning:** LoRA/QLoRA • PEFT  
+**RAG & Agents:** LangChain • ChromaDB • Pinecone • sentence-transformers • Anthropic Claude API • DeepSeek API   
+**MCP Servers:** FastMCP  
+**Tools:** Tavily Search • Gradio • Ollama  
+**Deployment:** HuggingFace Spaces
+
+🔗 [HuggingFace Profile](https://huggingface.co/knightscode139)
