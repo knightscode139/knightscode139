@@ -9,7 +9,7 @@ Multi-agent system for autonomous Ubuntu troubleshooting and repair. Built with 
 - **Architecture:** 3 specialized agents (Detector → Fixer → Executor) with supervisor coordination
 - **Stack:** LangGraph • FastMCP • Ollama (local LLMs)
 - **Goal:** Genuine utility tool for Ubuntu users, not just a portfolio piece
-- Open to collaborators! See [Contributing Guide]
+- Open to collaborators!
 
 ---
 
